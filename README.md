@@ -115,7 +115,7 @@ Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart,
 ![Ratio 2](https://github.com/user-attachments/assets/f366c2f4-8ee6-4931-8dc5-7cb649e8fa67)
 
 ## Task 4: Generate custom shipping labels for December
-**Create shipping_summary_table**
+**Create shipping_summary table**
 ```js
 create table shipping_summary (
 shipping_date date,
