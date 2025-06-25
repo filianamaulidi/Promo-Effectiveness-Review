@@ -13,7 +13,7 @@ This analysis was driven by several key objectives aimed at evaluating how promo
 + Generate custom shipping labels for December.
 
 ## Tools Used
-+ **PostreSQL:** Used for extracting relevant datasets from multiple tables, including retrieving transaction records for specific dates and generating shipping receipt. It served as the foundation for pulling accurate and filtered data needed for further analysis.
++ **PostgreSQL:** Used for extracting relevant datasets from multiple tables, including retrieving transaction records for specific dates and generating shipping receipt. It served as the foundation for pulling accurate and filtered data needed for further analysis.
 + **Microsoft Excel:** Used for further process and refine the dataset. Excel’s Pivot Table and Pivot Chart features allowed us to summarize the information clearly and present key trends and metrics through easy-to-read visualizations.
 
 
