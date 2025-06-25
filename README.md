@@ -27,8 +27,8 @@ Before moving forward with the analysis, we first prepared the necessary databas
 This is the view of final ERD for Database Task5.
 ![ERD jadi](https://github.com/user-attachments/assets/1acee6ba-372e-42f5-ac77-4b8fbab382b6)
 
-## Solving The Challenges
-# Task 1: Apply promo codes provided by the Budgeting Team
+# Solving The Challenges
+## Task 1: Apply promo codes provided by the Budgeting Team
 Create 'promo_code' table
 ```js
 create table promo_code (
@@ -48,7 +48,7 @@ Duration int
 select * from promo_code;
 ```
 
-# Task 2: Create specialized reports for Q3 and Q4
+## Task 2: Create specialized reports for Q3 and Q4
 **Create Q3_Q4_Review table**
 ```js
 create table q3_q4_Review (
@@ -100,7 +100,7 @@ from data_promo;
 select * from q3_q4_review;
 ```
 
-# Task 3: Summarize and visualize key insights from Q3 and Q4
+## Task 3: Summarize and visualize key insights from Q3 and Q4
 Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart, we can visualize the sales performance for Q3 and Q4 of 2022. Below are some charts that summarize the effectiveness of promo codes to sales performance.
 
 
@@ -114,7 +114,7 @@ Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart,
 ![Ratio 1](https://github.com/user-attachments/assets/dfca2ff3-392d-4fdf-ae18-bde671f79778)
 ![Ratio 2](https://github.com/user-attachments/assets/f366c2f4-8ee6-4931-8dc5-7cb649e8fa67)
 
-# Task 4: Generate custom shipping labels for December
+## Task 4: Generate custom shipping labels for December
 **Create shipping_summary_table**
 ```js
 create table shipping_summary (
