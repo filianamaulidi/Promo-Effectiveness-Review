@@ -29,7 +29,7 @@ This is the view of final ERD for Database Task5.
 
 # Solving The Challenges
 ## Task 1: Apply promo codes provided by the Budgeting Team
-Create 'promo_code' table
+Create promo_code table
 ```js
 create table promo_code (
 promo_id int primary key,
