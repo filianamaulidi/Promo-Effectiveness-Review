@@ -104,15 +104,9 @@ select * from q3_q4_review;
 Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart, we can visualize the sales performance for Q3 and Q4 of 2022. Below are some charts that summarize the effectiveness of promo codes to sales performance.
 
 
-**Monthly Total Sales after Promo**
-![Revenue1](https://github.com/user-attachments/assets/1d5a06e1-7d7b-4399-9e78-7674832aec25)
+**Sales Performance Dashboard**
+![Dashboard Promo](https://github.com/user-attachments/assets/b4643acc-85ac-43dd-becc-ffa6c165cdb6)
 
-**Comparison of Total Sales: With vs Without Promo**
-![Revenue Both](https://github.com/user-attachments/assets/c195bba7-e5e9-4ff9-931e-35f69001fe8c)
-
-**Ratio Comparison of Sales Performance : With vs Without Promo**
-![Ratio 1](https://github.com/user-attachments/assets/dfca2ff3-392d-4fdf-ae18-bde671f79778)
-![Ratio 2](https://github.com/user-attachments/assets/f366c2f4-8ee6-4931-8dc5-7cb649e8fa67)
 
 ## Task 4: Generate custom shipping labels for December
 **Create shipping_summary table**
