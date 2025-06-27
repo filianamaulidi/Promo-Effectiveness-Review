@@ -19,8 +19,8 @@ This analysis was driven by several key objectives aimed at evaluating how promo
 
 ## Database Preparation
 Before moving forward with the analysis, we first prepared the necessary database. This preparation stage involved several steps, such as:
-+ Restoring the database
-+ Table checking
++ Database Restore
++ Table Checking
 + ERD Creation
 
 
