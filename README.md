@@ -1,5 +1,5 @@
 # Promo Effectivenes Review
-This portfolio project was created as part of a project-based internship program by Rakamin Academy in collaboration with Jubelio. The goal of the project is to analyze the effectiveness of promo codes on marketplace sales performance during Q3 and Q4 of 2022, and provide strategic recommendations based on data-driven insights.
+This portfolio project was created as part of a project-based internship program by Rakamin Academy in collaboration with Jubelio Omnichannel. The goal of the project is to analyze the effectiveness of promo codes on marketplace sales performance during Q3 and Q4 of 2022, and provide strategic recommendations based on data-driven insights.
 
 ## Project Background
 Every six months, Jubelio Omnichannel conducts a Promo Effectiveness Review to evaluate how promo codes impact total transactions and sales on a specific marketplace. This initiative helps the marketplace assess how effective the promo codes have been throughout months in driving sales and providing valuable insights to guide promo-based sales strategies in the following years.
