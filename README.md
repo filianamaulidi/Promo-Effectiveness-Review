@@ -106,7 +106,11 @@ Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart,
 
 **Sales Performance Dashboard**
 ![Dashboard Promo](https://github.com/user-attachments/assets/b4643acc-85ac-43dd-becc-ffa6c165cdb6)
+This dashboard summarizes the sales performance of a marketplace during Q3–Q4 2022 (July to December), with a specific focus on evaluating the impact of promo codes across three key metrics: total revenue, quantity sold, and transaction count.
 
+The visualizations clearly show that promo-driven sales consistently outperformed non-promo sales across all indicators. Notable peaks occurred in August, October and December, coinciding with seasonal momentum and a higher number of promo codes issued. The ratio-based charts also highlight how promo-related sales dominated in volume and value, particularly in December, where the gap was most significant.
+
+These insights suggest that well-executed promo campaigns, especially when aligned with high-traffic periods, can significantly boost both customer engagement and business performance.
 
 ## Task 4: Generate custom shipping labels for December
 **Create shipping_summary table**
