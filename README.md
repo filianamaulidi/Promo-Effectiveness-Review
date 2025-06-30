@@ -63,7 +63,12 @@ sales_after_promo bigint
 ```
 
 **Insert Data with CTE and Insert with Select Statement**
+
+Anyway, CTE is used to clearly structure the process of joining and transforming data from multiple tables. It made the query easier to read and allowed for a clean insertion into the Q3_Q4_Review table.
+![image](https://github.com/user-attachments/assets/64220eb5-e1e3-48f0-b86c-b6371664ba21)
+
 ```js
+--CTE
 with data_promo as (
 select 
 	s.purchase_date,
@@ -83,6 +88,7 @@ price_deduction
 order by purchase_date
 )
 
+--Insert with Select
 insert into q3_q4_review
 select purchase_date,
 item_name,
@@ -157,7 +163,16 @@ select * from shipping_summary2;
 select * from shipping_summary;
 ```
 
-Export data to CSV file, so that the label creation can be processed.
+Export data to CSV file, so that the label creation can be processed. Labels criteria is 2 across and 5 down. More detailed steps to create shipping label using Ms. Words is written as below:
++ **Connect the worksheet label:**  Mailings > Start Mail Merge > Select Recipients > Use an Existing File > Select Data Source > Select excel file containing data for labels.
++ **Add mail merge:** Mailings > Write & Insert Fields > Address Block > Match Fields > Click ‘OK’ > Write & Insert Labels > Update Labels > Finish & Merge > Edit Individual Documents > Select All > Click ‘OK’.
+
+The result:
+
+![label final](https://github.com/user-attachments/assets/fd72a3e4-5f90-4be7-8196-35efc9606ba2)
+
+**Note:** This preview displays only the first page of the full set of generated shipping labels.
+
 
 
 # Market Strategy
