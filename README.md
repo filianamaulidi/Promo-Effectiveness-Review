@@ -163,7 +163,7 @@ select * from shipping_summary2;
 select * from shipping_summary;
 ```
 
-Export data to CSV file, so that the label creation can be processed. Labels criteria is 2 across and 5 down. More detailed steps to create shipping label using Ms. Words is written as below:
+Export data to CSV file, so that the label creation can be processed. Labels criteria is 2 across and 5 down. More detailed steps to create shipping label using Ms. Words is written below:
 + **Connect the worksheet label:**  Mailings > Start Mail Merge > Select Recipients > Use an Existing File > Select Data Source > Select excel file containing data for labels.
 + **Add mail merge:** Mailings > Write & Insert Fields > Address Block > Match Fields > Click ‘OK’ > Write & Insert Labels > Update Labels > Finish & Merge > Edit Individual Documents > Select All > Click ‘OK’.
 
