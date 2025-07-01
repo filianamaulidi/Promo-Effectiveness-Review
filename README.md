@@ -111,7 +111,8 @@ Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart,
 
 
 **Sales Performance Dashboard**
-![Dashboard Promo](https://github.com/user-attachments/assets/b4643acc-85ac-43dd-becc-ffa6c165cdb6)
+![dashboard](https://github.com/user-attachments/assets/a1ec12ae-3f2a-4f70-9fef-da2ed9bcfccb)
+
 This dashboard summarizes the sales performance of a marketplace during Q3–Q4 2022 (July to December), with a specific focus on evaluating the impact of promo codes across three key metrics: total revenue, quantity sold, and transaction count.
 
 The visualizations clearly show that promo-driven sales consistently outperformed non-promo sales across all indicators. Notable peaks occurred in August, October and December, coinciding with seasonal momentum and a higher number of promo codes issued. The ratio-based charts also highlight how promo-related sales dominated in volume and value, particularly in December, where the gap was most significant.
@@ -185,6 +186,11 @@ From what we get from the analysis, there are several market strategies that can
 
 # Conclusion
 The analysis clearly shows that promo codes have a strong impact on the marketplace’s total sales and revenue, especially when aligned with seasonal moments like year-end events. The number of transactions, the quantity of items sold, and total revenue all showed consistently higher results with the use of promo codes, highlighting their effectiveness in attracting customer interest and encouraging purchases. Besides seasonal factors, this sales growth also corresponds with the higher number of promo codes issued during those months that is exceeding the average of two promo codes per month.
+
+
+This correlation is further supported by the promo usage ratio, which shows that in months with more promo codes available (August, October, and December), customers used them more frequently. This indicates that not only the presence but also the volume of promos plays a significant role in influencing buyer behavior.
+
+
 With the right combination of promo strategies and timing, sales performance can increase significantly. To further optimize future sales performance, several marketing strategies can be considered: enhancing end-of-year campaigns, introducing exclusive loyalty programs, increasing social media exposure, launching time-limited and quota-based promo codes, and expanding mid-year promotional efforts.
 
 
