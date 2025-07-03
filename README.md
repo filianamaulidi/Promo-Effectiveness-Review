@@ -65,7 +65,6 @@ sales_after_promo bigint
 **Insert Data with CTE and Insert with Select Statement**
 
 Anyway, CTE is used to clearly structure the process of joining and transforming data from multiple tables. It made the query easier to read and allowed for a clean insertion into the Q3_Q4_Review table.
-![image](https://github.com/user-attachments/assets/64220eb5-e1e3-48f0-b86c-b6371664ba21)
 
 ```js
 --CTE
