@@ -110,7 +110,9 @@ Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart,
 
 
 **Sales Performance Dashboard**
-![dashboard](https://github.com/user-attachments/assets/a1ec12ae-3f2a-4f70-9fef-da2ed9bcfccb)
+<img width="1565" height="680" alt="Dashboard (NEW)" src="https://github.com/user-attachments/assets/0be0cad8-9d8e-48b8-8e55-d13dddb960b1" />
+
+
 
 This dashboard summarizes the sales performance of a marketplace during Q3–Q4 2022 (July to December), with a specific focus on evaluating the impact of promo codes across three key metrics: total revenue, quantity sold, and transaction count.
 
