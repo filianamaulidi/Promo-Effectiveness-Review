@@ -110,13 +110,14 @@ Export the Q3_Q4_Review table to csv file. By using Pivot Table and Pivot Chart,
 
 
 **Sales Performance Dashboard**
-<img width="1565" height="680" alt="Dashboard (NEW)" src="https://github.com/user-attachments/assets/0be0cad8-9d8e-48b8-8e55-d13dddb960b1" />
-
+<img width="1748" height="656" alt="dash (abu)" src="https://github.com/user-attachments/assets/f6f8be9f-023d-4a4b-ae85-647419e46dc9" />
 
 
 This dashboard summarizes the sales performance of a marketplace during Q3–Q4 2022 (July to December), with a specific focus on evaluating the impact of promo codes across three key metrics: total revenue, quantity sold, and transaction count.
 
 The visualizations clearly show that promo-driven sales consistently outperformed non-promo sales across all indicators. Notable peaks occurred in August, October and December, coinciding with seasonal momentum and a higher number of promo codes issued. The ratio-based charts also highlight how promo-related sales dominated in volume and value, particularly in December, where the gap was most significant.
+
+A total of 7 promo campaigns were launched during Q3–Q4, contributing to Rp1.18 billion in promo-driven revenue with a conversion rate of 54.24%. It means, over half of all promo codes offered led to actual purchases. Among the three discount tiers, low-tier discounts contributed the most to revenue (78.92%), largely driven by Gratis_Ongkir, which alone accounted for 4 out of every 5 rupiah in that category due to its daily presence. The top 3 most-used promo codes were Gratis_Ongkir, End_Year, and Christmas, showing strong traction with customers and higher checkout rates during high-traffic periods.
 
 These insights suggest that well-executed promo campaigns, especially when aligned with high-traffic periods, can significantly boost both customer engagement and business performance.
 
@@ -180,18 +181,18 @@ The result:
 # Market Strategy
 From what we get from the analysis, there are several market strategies that can be applied to boost future sales performance:
 + **Optimize Year-End Campaigns**: Leverage high-impact periods like December by increasing promo code offerings. For example, create a bundle promo codes with year-end events (e.g., Christmas, New Year, school holidays) to maximize conversion.
-+ **Exclusice Loyalty Voucher**: Reward customers who shop consistently over multiple months long-term engagement. For example, customers who make at least five purchases per month for three consecutive months, with a minimum monthly spend of IDR 500,000, will receive an exclusive 50% discount voucher applicable to their next five transactions.
++ **Double Down on High-Frequency, Low-Tier Promos**: Low-tier discounts like Gratis_Ongkir proved to be the most effective, contributing ~80% of promo-driven revenue. Their success lies in daily exposure and consistent usage. Keep these running as core offers to drive steady engagement at minimal cost.
 + **Maximize Social Media Exposure**: Focus on platforms where the target audience is most active (e.g., Instagram, TikTok) to drive engagement. Utilize targeted social media ads to promote active campaigns and seasonal promo codes. We can also collaborate with influencers to expand brand visibility, especially during high-potential months like August and December.
-+ **Implement Time-Limited & Quota-Based Promo Codes**: Offer promo codes valid for a limited number of transactions per day (e.g., first 200 checkouts), especially during peak user activity hours such as 12:00–14:00 (lunch break) or 19:00–21:00 (evening screen time). Plus, add real-time reminders or countdowns on the product page or checkout screen (e.g., “Only 20 promo codes left!”) to create urgency and drive faster conversions.
++ **Strategically Boost High-Tier Promos**: Although high-tier discounts are rarely used, they show strong potential. To avoid margin loss, run them as limited-time flash deals during peak shopping periods (e.g. Harbolnas or Payday) to create urgency and maximize impact.
++ **Leverage the Promo Conversion Rate**: With over half of buyers checking out using a promo, there’s strong interest to tap into. Consider launching follow-up deals, segmented re-offers, loyalty program, or exclusive vouchers to keep promo-driven users coming back.
 + **Expand Mid-Year Promotions**: August showed strong results with only three promo codes. Consider creating special campaigns (e.g., Back-to-School, Mid-Year Sale) during this time to boost Q3 performance.
 
 # Conclusion
-The analysis clearly shows that promo codes have a strong impact on the marketplace’s total sales and revenue, especially when aligned with seasonal moments like year-end events. The number of transactions, the quantity of items sold, and total revenue all showed consistently higher results with the use of promo codes, highlighting their effectiveness in attracting customer interest and encouraging purchases. Besides seasonal factors, this sales growth also corresponds with the higher number of promo codes issued during those months that is exceeding the average of two promo codes per month.
+The analysis shows that promo codes significantly impact total sales and revenue, especially when aligned with seasonal moments like year-end events. Transactions, quantity sold, and revenue consistently increased with promo usage, reflecting their effectiveness in driving customer interest.
 
+This growth also correlates with months offering more promo codes than the average, as seen in August, October, and December. Promo usage ratios further confirm that both the presence and volume of promos influence buyer behavior. 
 
-This correlation is further supported by the promo usage ratio, which shows that in months with more promo codes available (August, October, and December), customers used them more frequently. This indicates that not only the presence but also the volume of promos plays a significant role in influencing buyer behavior.
+Low-tier discounts contributed the most revenue, while high-tier offers showed potential when timed strategically. With a 54% promo conversion rate, customer responsiveness is evident and actionable.
 
-
-With the right combination of promo strategies and timing, sales performance can increase significantly. To further optimize future sales performance, several marketing strategies can be considered: enhancing end-of-year campaigns, introducing exclusive loyalty programs, increasing social media exposure, launching time-limited and quota-based promo codes, and expanding mid-year promotional efforts.
-
+With the right strategy and timing, promo campaigns can meaningfully boost performance. With these insights, the marketplace can better design future campaigns to drive both revenue and engagement.
 
