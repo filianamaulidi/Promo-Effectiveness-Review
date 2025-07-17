@@ -51,13 +51,16 @@ select * from promo_code;
 ## Task 2: Create specialized reports for Q3 and Q4
 **Create Q3_Q4_Review table**
 ```js
-create table q3_q4_Review (
+create table q3_q4_review (
 purchase_date date,
 item_name varchar,
+category varchar,
 price bigint,
 quantity int,
 total_price bigint,
 apply_promo varchar,
+promo_name varchar,
+price_deduction bigint,
 sales_after_promo bigint
 );
 ```
@@ -72,31 +75,38 @@ with data_promo as (
 select 
 	s.purchase_date,
 	m.item_name,
+	m.category,
 	m.price,
 	s.quantity,
 	sum(m.price * s.quantity) as total_price,
 	coalesce (p.promo_name, 'NO') as apply_promo,
+	p.promo_name,
+	p.price_deduction,
 	coalesce((sum (m.price * s.quantity) - (p.price_deduction)), 0) 
 	as sales_after_promo
 from sales_table s
 left join marketplace_table m on s.item_id = m.item_id
 left join promo_code p on s.promo_id = p.promo_id
 where purchase_date >= '2022-07-01' and purchase_date <= '2022-12-31'
-group by purchase_date, item_name, price, quantity, promo_name, 
-price_deduction
+group by purchase_date, item_name, price, quantity, 
+promo_name, price_deduction, category
 order by purchase_date
 )
+
 
 --Insert with Select
 insert into q3_q4_review
 select purchase_date,
-item_name,
-price,
-quantity,
-total_price,
-case when apply_promo = 'NO' then 'NO' else 'YES'
-end as promo_code,
-sales_after_promo
+       item_name,
+       category,
+       price,
+       quantity,
+       total_price,
+       case when apply_promo = 'NO' then 'NO' else 'YES'
+       end as promo_code,
+       promo_name,
+       price_deduction,
+       sales_after_promo
 from data_promo;
 ```
 
@@ -196,3 +206,61 @@ Low-tier discounts contributed the most revenue, while high-tier offers showed p
 
 With the right strategy and timing, promo campaigns can meaningfully boost performance. With these insights, the marketplace can better design future campaigns to drive both revenue and engagement.
 
+
+
+# Additional Queries
+```js
+--Total Promo in Q3-Q4 2022
+select distinct promo_name from q3_q4_review
+where purchase_date between '2022-07-01' and '2022-12-31';
+
+
+--Total Revenue with Promo
+select sum(sales_after_promo) from q3_q4_review
+where apply_promo='YES';
+
+
+--Promo Conversion Rate
+SELECT 
+  COUNT(*) FILTER (WHERE apply_promo = 'YES') * 1.0 / COUNT(*) AS promo_conversion_rate
+FROM q3_q4_review;
+
+
+--Contribution per Discount Tier
+ with kontribusi as (
+ select 
+ case
+ 	when price_deduction <= 10000 then 'Low'
+	when price_deduction between 10001 and 15000 then 'Medium'
+	else 'High'
+ end as discount_tier,
+ count (*) as transaction_count,
+ sum(total_price) as total_revenue
+ from q3_q4_review
+ where price_deduction is not null
+ group by discount_tier
+ order by total_revenue desc
+),
+total as (
+select sum(total_revenue) as grand_total from kontribusi
+)
+SELECT 
+  k.discount_tier,
+  k.transaction_count,
+  k.total_revenue,
+  ROUND((k.total_revenue::numeric / t.grand_total) * 100, 2) AS revenue_contribution_percent
+FROM kontribusi k, total t
+ORDER BY k.total_revenue DESC;
+
+
+-- Promo Usage Frequency
+select promo_name, price_deduction, count(promo_name) as total_used,
+case
+	when price_deduction <= 10000 then 'Low'
+	when price_deduction between 10001 and 15000 then 'Medium'
+	else 'High'
+end as discount_tier
+from q3_q4_review
+group by promo_name, price_deduction, discount_tier
+order by total_used desc;
+```
