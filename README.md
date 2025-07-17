@@ -210,7 +210,7 @@ With the right strategy and timing, promo campaigns can meaningfully boost perfo
 
 # Additional Queries
 ```js
---Total Promo in Q3-Q4 2022
+--Number of Promo Offered in Q3-Q4 2022
 select distinct promo_name from q3_q4_review
 where purchase_date between '2022-07-01' and '2022-12-31';
 
